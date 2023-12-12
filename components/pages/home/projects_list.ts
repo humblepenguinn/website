@@ -120,7 +120,7 @@ export const projects = [
     },
     {
       repo: "portfolio-website",
-      link: "https://github.com/humblepenguinn/portfolio-website",
+      link: "https://github.com/humblepenguinn/website",
       website: "",
       description: "A personal portfolio website that showcases my projects and skills",
       summaryPoints: [

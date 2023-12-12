@@ -12,9 +12,11 @@ export default async function Articles() {
 
   if (articlePreviews.length === 0) {
     articlePreviews.push(
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center" style={{
+        paddingTop: "3rem",
+      }}>
         <div className="text-center">
-          <GrDocumentMissing className="text-5xl mb-4" />
+          <GrDocumentMissing className="text-5xl mb-4 mx-auto" />
           <p className="text-lg">
             Oops! No articles available at the moment. They are currently under
             development. 🚧 Please come back another time.

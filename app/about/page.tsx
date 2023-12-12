@@ -17,17 +17,17 @@ export default function About() {
   }, []);
 
   return (
-    <div className="flex items-center justify-center h-screen">
-      <div className="text-left w-1/2">
-        <div className="text-5xl mb-12 font-bold">
+    <div className="flex flex-col items-center justify-center min-h-screen">
+      <div className="flex-1 px-4 max-w-screen-md w-full">
+        <div className="text-4xl md:text-5xl mb-6 md:mb-12 font-bold text-center py-12">
           Hello <span className="text-4xl">&#128075;</span>
         </div>
 
-        <div className="mb-4">
+        <div className="text-sm md:text-base">
           <p className="mb-4">
             I came into existence about {daysPassed} days ago (not that I&apos;m
-            counting). Currently completing my A-levels, or maybe I&apos;m done—depends on
-            when you find this.
+            counting). Currently completing my A-levels, or maybe I&apos;m
+            done—depends on when you find this.
           </p>
 
           <p className="mb-4">
@@ -52,7 +52,8 @@ export default function About() {
             learn how to code. I started off with <code>C++</code> which was
             perhaps the worst choice an 11 year old could have made. For a long
             time, I thought I was perhaps a bit <i>special</i> since I could not
-            understand anything. (<i>Special here means stupid in case you were not aware</i>)
+            understand anything. (
+            <i>Special here means stupid in case you were not aware</i>)
           </p>
 
           <p className="mb-4">
@@ -65,10 +66,9 @@ export default function About() {
           <p className="mb-4">
             After <code>C++</code>, I moved on to other languages such as{" "}
             <code>Python</code>, <code>JavaScript</code>,{" "}
-            <code>TypeScript</code>, <code>Rust</code>, and dabbled
-            in a few more like <code>Go</code>, <code>C#</code>,{" "}
-            <code>Java</code>, <code>C</code> and a few others.{" "}
-            <i>So maybe I was not special</i>
+            <code>TypeScript</code>, <code>Rust</code>, and dabbled in a few
+            more like <code>Go</code>, <code>C#</code>, <code>Java</code>,{" "}
+            <code>C</code> and a few others. <i>So maybe I was not special</i>
           </p>
 
           <p className="mb-4">
@@ -81,7 +81,8 @@ export default function About() {
             So here we are now. Currently, I have gotten interested in the
             theoretical aspect of computer science and the mathematics behind
             it. I plan to write a couple of research papers; however, it will be
-            some time before I publish one. Along with that, I am also working on a few projects that I hope to release soon.
+            some time before I publish one. Along with that, I am also working
+            on a few projects that I hope to release soon.
           </p>
         </div>
 
@@ -95,7 +96,7 @@ export default function About() {
         </div>
 
         <div className="mt-4">
-          <p className="">
+          <p className="mb-4">
             You can reach me via{" "}
             <a
               href={siteConfig.links.gmail}

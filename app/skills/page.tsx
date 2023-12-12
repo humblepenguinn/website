@@ -111,6 +111,7 @@ export default function SkillsPage() {
           <div
             style={{
               paddingTop: "3rem",
+              paddingBottom: "5rem",
             }}
           >
             <Skills />

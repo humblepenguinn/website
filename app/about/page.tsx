@@ -27,8 +27,9 @@ export default function About() {
           <p className="mb-4">
             My name is Shaharyar Ahmed, and I came into existence about{' '}
             {daysPassed} days ago (not that I&apos;m counting). Currently
-            I&apos;m completing my A-levels, or maybe I&apos;m done—depends on
-            when you read this.
+            I&apos;m completing my bachelor&apos;s degree in Computer Science at
+            the Institute of Business Administration (IBA)—or maybe I&apos;m
+            done, depending on when you read this
           </p>
 
           <p className="mb-4">

@@ -53,8 +53,9 @@ export default function Home() {
         <>
           <section className="space-y-4 py-4">
             <p className="font-light">
-              I am a high school student currently completing my A levels. Turns
-              out I like to code and think about stuff.
+              Currently an undergrad student at IBA completing my
+              bachelor&apos;s in Computer Science. Turns out, I like to code and
+              think about stuff
             </p>
             <p className="font-light text-muted-foreground">
               Fun fact: {fun_fact}{' '}
@@ -81,8 +82,9 @@ export default function Home() {
         <main className="py-4">
           <section className="space-y-4 py-4">
             <p className="font-light">
-              I am a high school student currently completing my A levels. Turns
-              out I like to code and think about stuff.
+              Currently an undergrad student at IBA completing my
+              bachelor&apos;s in Computer Science. Turns out, I like to code and
+              think about stuff
             </p>
             <SocialMediaIcons />
           </section>
